@@ -16,21 +16,27 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:1.0.1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/Employee/Employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/Employee/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_7/Employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_7/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_8/Employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_8/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_9/Employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_9/User.php" afterDir="false" />
+    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.1&#10;(L7 - L10) 12.03.2021">
+      <change afterPath="$PROJECT_DIR$/Lesson_11/Cities/City.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_11/Cities/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_11/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_11/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_12/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_12/Student/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_13/Arr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_13/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_14/City.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_14/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_15/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +49,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -97,8 +108,18 @@
       <workItem from="1615502812463" duration="587000" />
       <workItem from="1615530579286" duration="65000" />
       <workItem from="1615530656954" duration="62000" />
-      <workItem from="1615568203188" duration="7727000" />
+      <workItem from="1615568203188" duration="8441000" />
+      <workItem from="1615625611630" duration="5251000" />
+      <workItem from="1615650565687" duration="8021000" />
     </task>
+    <task id="LOCAL-00001" summary="Version 1.0.1&#10;(L7 - L10) 12.03.2021">
+      <created>1615584509969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615584509969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,11 +130,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="1.0.1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.0.1&#10;(L7 - L10) 12.03.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.1&#10;(L7 - L10) 12.03.2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1615503177216">
@@ -140,10 +178,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615496676164" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1615530643862">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1615584618446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615530643862" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615584618446" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615584641726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615584641726" />
     <state x="590" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1615501740802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
