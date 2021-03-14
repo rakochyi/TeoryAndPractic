@@ -25,18 +25,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.1&#10;(L7 - L10) 12.03.2021">
-      <change afterPath="$PROJECT_DIR$/Lesson_11/Cities/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_11/Cities/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_11/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_11/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_12/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_12/Student/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_13/Arr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_13/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_14/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_14/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_15/User.php" afterDir="false" />
+    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.2&#10;(L11 - L15) 13.03.2021">
+      <change afterPath="$PROJECT_DIR$/Lesson_16/Arr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_17/Arr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_17/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_18/ArrayAvgHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_18/ArraySumHelper_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_18/ArraySumHelper_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_19/Employee/Driver/Driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_19/Employee/Employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_19/Programmer/Programmer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_19/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_19/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_20/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_20/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,7 @@
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="1.0.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +73,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -81,7 +82,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -110,7 +111,9 @@
       <workItem from="1615530656954" duration="62000" />
       <workItem from="1615568203188" duration="8441000" />
       <workItem from="1615625611630" duration="5251000" />
-      <workItem from="1615650565687" duration="8021000" />
+      <workItem from="1615650565687" duration="8294000" />
+      <workItem from="1615703766621" duration="17899000" />
+      <workItem from="1615747240082" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0.1&#10;(L7 - L10) 12.03.2021">
       <created>1615584509969</created>
@@ -119,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615584509969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version 1.0.2&#10;(L11 - L15) 13.03.2021">
+      <created>1615663104027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615663104027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,13 +161,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1.0.1&#10;(L7 - L10) 12.03.2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.1&#10;(L7 - L10) 12.03.2021" />
+    <MESSAGE value="Version 1.0.2&#10;(L11 - L15) 13.03.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.2&#10;(L11 - L15) 13.03.2021" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1615503177216">
+    <state x="395" y="91" key="#Inspections" timestamp="1615711347213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1615503177216" />
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1615711347213" />
     <state x="322" y="275" width="559" height="273" key="#Notifications" timestamp="1615503243490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -174,18 +185,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="528" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1615530683643" />
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1615496676164">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1615744102092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615496676164" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1615584618446">
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615744102092" />
+    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1615747834266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615584618446" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615584641726">
+    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1615747834266" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1615742329825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615584641726" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615742329825" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615663136579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615663136579" />
     <state x="590" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1615501740802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
