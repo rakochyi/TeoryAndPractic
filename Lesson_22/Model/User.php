@@ -63,10 +63,4 @@ class User
     {
         return $this->birthday;
     }
-
-
-    private function calculateAge($birthday)
-    {
-
-    }
 }
