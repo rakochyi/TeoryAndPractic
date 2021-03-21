@@ -2,22 +2,12 @@
 
 namespace TeoryAndPractic\Lesson_1;
 
-/**
- * Class LessOne
- * @package TeoryAndPractic\Lesson_1
- */
+
 class LessOne
 {
-    /**
-     * @var string
-     */
     public $color;
 
-    /**
-     * @var int
-     */
     public $fuel;
-
 
     public function go()
     {
@@ -35,7 +25,6 @@ class LessOne
     }
 
 }
-
 $myLess = new LessOne;
 
 $myLess->color = 'red';
