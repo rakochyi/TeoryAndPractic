@@ -25,18 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.6&#10;(L26 - L32) 21.03.2021">
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Class_exists/Myclass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Class_exists/Test1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Class/Foo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Class/Test1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Class/Test2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Class_Methods/Myclass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Class_Methods/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Class_Vars/Myclass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Class_Vars/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Object_Vars/Foo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Object_Vars/Test.php" afterDir="false" />
+    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.7&#10;(L33(1) - L33(5)) 22.03.2021">
+      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Parent_Class/Children.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_33/Get_Parent_Class/Parents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_33/Method_exists/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_33/Property_exists/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_33/Property_exists/Test1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +45,7 @@
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1.0.5" />
+        <entry key="$PROJECT_DIR$" value="1.0.6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,7 +118,9 @@
       <workItem from="1616247242688" duration="854000" />
       <workItem from="1616248189753" duration="191000" />
       <workItem from="1616248436593" duration="20008000" />
-      <workItem from="1616439603467" duration="7499000" />
+      <workItem from="1616439603467" duration="7664000" />
+      <workItem from="1616447955703" duration="1000" />
+      <workItem from="1616614460245" duration="4071000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0.1&#10;(L7 - L10) 12.03.2021">
       <created>1615584509969</created>
@@ -168,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616357544630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Version 1.0.7&#10;(L33(1) - L33(5)) 22.03.2021">
+      <created>1616447787897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616447787897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,13 +208,18 @@
     <MESSAGE value="Version 1.0.4&#10;(L21 - L22/1) 17.03.2021" />
     <MESSAGE value="Version 1.0.5&#10;(L22 - L25/1) 20.03.2021" />
     <MESSAGE value="Version 1.0.6&#10;(L26 - L32) 21.03.2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.6&#10;(L26 - L32) 21.03.2021" />
+    <MESSAGE value="Version 1.0.7&#10;(L33(1) - L33(5)) 22.03.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.7&#10;(L33(1) - L33(5)) 22.03.2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1615711347213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1615711347213" />
+    <state x="361" y="71" width="814" height="728" key="#Intentions" timestamp="1616618298922">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" width="814" height="728" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1616618298922" />
     <state x="322" y="275" width="559" height="273" key="#Notifications" timestamp="1616246257761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,10 +260,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616247226604" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616357556759">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616447797969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616357556759" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616447797969" />
     <state x="590" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1615501740802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
