@@ -71,7 +71,5 @@ $publications[] = new Article($article_id);
 foreach ($publications as $publication) {
     if ($publication instanceof Publication) {
         $publication->do_print();
-    } else {
-
     }
 }
