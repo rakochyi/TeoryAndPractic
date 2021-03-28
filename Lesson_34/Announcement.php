@@ -4,6 +4,7 @@ namespace TeoryAndPractic\Lesson_34;
 
 use TeoryAndPractic\Lesson_34\Publication;
 
+require_once "Publication.php";
 /**
  * Class Announcement
  * @package TeoryAndPractic\Lesson_34
@@ -32,3 +33,4 @@ class Announcement extends Publication
         echo '<br>' . $this->properties['text'];
     }
 }
+

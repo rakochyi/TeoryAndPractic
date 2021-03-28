@@ -36,7 +36,7 @@ abstract class Publication
      */
     public function get_property($name)
     {
-        if (isset($this->properties[$name9])) {
+        if (isset($this->properties[$name])) {
             return $this->properties[$name];
         }
         return false;
@@ -63,6 +63,9 @@ abstract class Publication
      */
     abstract public function do_print();
 }
+require_once "News.php";
+require_once "Announcement.php";
+require_once "Article.php";
 
 $publications[] = new News($news_id);
 $publications[] = new Announcement($announcement_id);

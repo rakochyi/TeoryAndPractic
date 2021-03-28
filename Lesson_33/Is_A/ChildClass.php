@@ -2,6 +2,7 @@
 
 namespace TeoryAndPractic\Lesson_33\Is_A;
 
+require_once "ParentClass.php";
 /**
  * Class ChildClass
  * @package TeoryAndPractic\Lesson_33\Is_A

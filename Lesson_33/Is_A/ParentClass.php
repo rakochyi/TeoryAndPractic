@@ -13,5 +13,6 @@ class ParentClass
      */
     protected $number = 1;
 }
+//require_once "ChildClass.php";
 echo '<pre>';
 print_r(get_declared_classes());
