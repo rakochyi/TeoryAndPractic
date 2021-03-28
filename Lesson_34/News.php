@@ -5,6 +5,7 @@ namespace TeoryAndPractic\Lesson_34;
 
 use \TeoryAndPractic\Lesson_34\Publication;
 
+require_once "Publication.php";
 /**
  * Class News
  * @package TeoryAndPractic\Lesson_34
