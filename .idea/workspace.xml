@@ -25,33 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.12&#10;L42 - L45 &#10;date: 31.03.2021 time: 21:57">
-      <change afterPath="$PROJECT_DIR$/Lesson_46/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_46/Country.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_46/Helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_46/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_46/Trait1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_46/Trait2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_46/Trait3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_46/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_47/Pr_less/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_47/Pr_less/Trait1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_47/Pr_less/Trait2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_47/Pr_less/Trait3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_47/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_47/Trait1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_47/Trait2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_48/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_48/Test2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_48/Trait1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_48/Trait2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_49/ParentClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_49/Test1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_49/TestClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_49/TestTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_49/Trait1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_50/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_50/Trait1.php" afterDir="false" />
+    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.13&#10;L46 - L50 &#10;date: 1.04.2021 time: 22:43">
+      <change afterPath="$PROJECT_DIR$/Lesson_51/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_51/Trait_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_51/Trait_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_52/Trait_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_53/Arr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_53/SNP/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_53/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +47,7 @@
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1.0.11" />
+        <entry key="$PROJECT_DIR$" value="1.0.12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +77,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -167,7 +148,19 @@
       <workItem from="1617050546048" duration="23000" />
       <workItem from="1617118711250" duration="3415000" />
       <workItem from="1617212695726" duration="4373000" />
-      <workItem from="1617299796386" duration="5872000" />
+      <workItem from="1617299796386" duration="6960000" />
+      <workItem from="1617307186929" duration="116000" />
+      <workItem from="1617307318913" duration="92000" />
+      <workItem from="1617307425391" duration="222000" />
+      <workItem from="1617341712069" duration="77000" />
+      <workItem from="1617341803119" duration="66000" />
+      <workItem from="1617341881786" duration="23000" />
+      <workItem from="1617341920369" duration="52000" />
+      <workItem from="1617342004636" duration="70000" />
+      <workItem from="1617342088936" duration="72000" />
+      <workItem from="1617342176929" duration="28000" />
+      <workItem from="1617388713730" duration="2032000" />
+      <workItem from="1617390804205" duration="1722000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0.1&#10;(L7 - L10) 12.03.2021">
       <created>1615584509969</created>
@@ -267,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617217022778</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Version 1.0.13&#10;L46 - L50 &#10;date: 1.04.2021 time: 22:43">
+      <created>1617306171967</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617306171967</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +311,8 @@
     <MESSAGE value="Version 1.0.10 &#10;L35 - L41 &#10;date: 28.03.2021 time: 22:26" />
     <MESSAGE value="Version 1.0.11&#10;L42 &#10;date: 30.03.2021 time: 22:59" />
     <MESSAGE value="Version 1.0.12&#10;L42 - L45 &#10;date: 31.03.2021 time: 21:57" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.12&#10;L42 - L45 &#10;date: 31.03.2021 time: 21:57" />
+    <MESSAGE value="Version 1.0.13&#10;L46 - L50 &#10;date: 1.04.2021 time: 22:43" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.13&#10;L46 - L50 &#10;date: 1.04.2021 time: 22:43" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1616872459564">
@@ -326,18 +327,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" width="814" height="728" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1616618298922" />
-    <state x="322" y="275" width="559" height="273" key="#Notifications" timestamp="1616246257761">
+    <state x="322" y="275" width="559" height="273" key="#Notifications" timestamp="1617307337044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="322" y="275" width="559" height="273" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1616246257761" />
+    <state x="322" y="275" width="559" height="273" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1617307337044" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616917983462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616917983462" />
-    <state x="526" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617302502081">
+    <state x="526" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617390633826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="526" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617302502081" />
+    <state x="526" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617390633826" />
     <state x="517" y="249" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1615496678177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -386,14 +387,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="535" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1615750690390" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1616872461886">
+    <state x="329" y="56" key="SettingsEditor" timestamp="1617342202546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616872461886" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617217032294">
+    <state x="329" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617342202546" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617306185278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617217032294" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617306185278" />
     <state x="590" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1615501740802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
