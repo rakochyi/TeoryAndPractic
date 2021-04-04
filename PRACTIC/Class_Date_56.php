@@ -13,17 +13,17 @@ class Class_Date_56
     /**
      * @var integer
      */
-    private $day;
+    protected $day;
 
     /**
      * @var integer
      */
-    private $month;
+    protected $month;
 
     /**
      * @var integer
      */
-    private $year;
+    protected $year;
 
 
 
@@ -208,24 +208,8 @@ class Class_Date_56
      */
     public function __toString()
     {
-        return $this->year . '-' . $this->month . '-' . $this->day;
+        return $this->year . ' - ' . $this->month . ' - ' . $this->day;
     }
 }
-$date = new Class_Date_56(3, 4, 2021);
-echo $date->getDay() . ' - ' . $date->getMonth('ua') . ' - ' . $date->getYear() . ' - ' .$date->getWeekDay('ua');
-echo '<br>';
-echo (new Class_Date_56(15, 03, 1992))->addDay(4);
-echo '<br>';
-echo (new Class_Date_56(5, 4, 2021))->subDay(4);
-echo '<br>';
-echo (new Class_Date_56('5', 7, 2020))->addMonth(3);
-echo '<br>';
-echo (new Class_Date_56('5', 7, 2020))->subMonth(3);
-echo '<br>';
-echo (new Class_Date_56('5', 7, 2020))->addYear(3);
-echo '<br>';
-echo (new Class_Date_56('5', 7, 2020))->subYear(3);
-echo '<br>';
-echo (new Class_Date_56(5, 7, 2020))->format('d - m - y');
-echo '<br>';
-echo (new Class_Date_56(5, 7, 2020));
+$date1 = new Class_Date_56(29, 10, 2021);
+$date2 = new Class_Date_56(30, 1, 2029);
