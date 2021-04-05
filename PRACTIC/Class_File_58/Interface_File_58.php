@@ -22,11 +22,11 @@ interface Interface_File_58
 
     public function appendText($text);  // добавляет текст в конец файла
 
-    public function copy($copyPath);    // копирует файл
+    public function Copy($copyPath);    // копирует файл
 
-    public function delete();           // удаляет файл
+    public function delete($file_name);           // удаляет файл
 
-    public function rename($newName);   // переименовывает файл
+    public function Rename($newName);   // переименовывает файл
 
     public function replace($newPath);  // перемещает файл
 }
