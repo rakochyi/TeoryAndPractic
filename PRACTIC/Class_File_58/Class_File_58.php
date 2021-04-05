@@ -127,46 +127,73 @@ class Class_File_58 implements Interface_File_58
     }
 
 
-
+    /**
+     * @param $text
+     * @return false|int
+     */
     public function appendText($text)
     {
-        // TODO: Implement appendText() method.
+        $arr = [];
+        $str = explode('-', array_push($arr, $text));
+        $string = implode('-', $str);
+
+        $f = rtrim(self::File) . $this->path;
+        $fil = file_put_contents($f, $string);
+        return $fil;
     }
 
 
-
-    public function copy($copyPath)
+    /**
+     *
+     * @param $copyPath
+     * @return false|int
+     */
+    public function Copy($copyPath)
     {
-        // TODO: Implement copy() method.
+        if (!isset($copyPath)) {
+            echo file_put_contents($copyPath, '');
+        }
+        $copy_file = rtrim(self::File) . $this->path;
+        $new_file = rtrim(self::File) . $copyPath;
+        return copy($copy_file, $new_file);
+
     }
 
 
 
-    public function delete()
+    /**
+     * @param $file_name
+     * @return bool
+     */
+    public function delete($file_name)
     {
-        // TODO: Implement delete() method.
+        $delete = rtrim(self::File) . $file_name;
+        return unlink($delete);
     }
 
 
 
-    public function rename($newName)
+    /**
+     * @param $newName
+     * @return bool
+     */
+    public function Rename($newName)
     {
-        // TODO: Implement rename() method.
+        $old_name = rtrim(self::File) . $this->path;
+        $new_name = rtrim(self::File) . $newName;
+        return rename($old_name, $new_name);
     }
 
 
-
+    /**
+     * @param $newPath
+     * @return bool
+     */
     public function replace($newPath)
     {
-        // TODO: Implement replace() method.
+        $old_replace = rtrim(self::File) . $this->path;
+        $new_place = rtrim(self::File) . $newPath;
+        return rename($old_replace, $new_place);
     }
 }
 $file = new Class_File_58('Arr.php');
-echo $file->getPath() . '<br>';
-echo $file->getDir() . '<br>';
-echo $file->getName() . '<br>';
-echo $file->getExt() . '<br>';
-echo $file->getSize() . '<br>';
-echo $file->getText() . '<br>';
-$file->setText('Hello world!!!');
-echo $file->getText() . '<br>';
