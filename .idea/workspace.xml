@@ -25,10 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.18&#10;Interface_File_58.php&#10;Class_File_58.php&#10;Tag.php (Lesson_59) &#10;date: 05.04.2021 time: 22:01">
-      <change afterPath="$PROJECT_DIR$/PRACTIC/Class_Tag_59_60_61/Tag.php" afterDir="false" />
+    <list default="true" id="550aced5-91cb-40ca-b009-561172564216" name="Default Changelist" comment="Version 1.0.19&#10;Tag.php (Lesson_60) &#10;date: 05.04.2021 time: 22:28">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRACTIC/Class_Tag_59_60/Tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRACTIC/Class_Tag_59_60_61/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/PRACTIC/Class_Tag_59_60_61/Tag.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1.0.17" />
+        <entry key="$PROJECT_DIR$" value="1.0.18" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,7 +153,12 @@
       <workItem from="1617390804205" duration="1816000" />
       <workItem from="1617436201500" duration="19964000" />
       <workItem from="1617517853709" duration="15026000" />
-      <workItem from="1617645412585" duration="5278000" />
+      <workItem from="1617645412585" duration="5383000" />
+      <workItem from="1617734613319" duration="999000" />
+      <workItem from="1617811925251" duration="6340000" />
+      <workItem from="1617818789937" duration="145000" />
+      <workItem from="1617819130072" duration="861000" />
+      <workItem from="1617820017073" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0.1&#10;(L7 - L10) 12.03.2021">
       <created>1615584509969</created>
@@ -296,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617649321529</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Version 1.0.19&#10;Tag.php (Lesson_60) &#10;date: 05.04.2021 time: 22:28">
+      <created>1617650914850</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617650914850</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +357,8 @@
     <MESSAGE value="Version 1.0.16&#10;Class_Date_56.php &#10;date: 03.04.2021 time: 22:49" />
     <MESSAGE value="Version 1.0.17&#10;Class_Interval_57.php&#10;Interface_File_58.php&#10;Class_File_58.php &#10;date: 04.04.2021 time: 15:29" />
     <MESSAGE value="Version 1.0.18&#10;Interface_File_58.php&#10;Class_File_58.php&#10;Tag.php (Lesson_59) &#10;date: 05.04.2021 time: 22:01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.18&#10;Interface_File_58.php&#10;Class_File_58.php&#10;Tag.php (Lesson_59) &#10;date: 05.04.2021 time: 22:01" />
+    <MESSAGE value="Version 1.0.19&#10;Tag.php (Lesson_60) &#10;date: 05.04.2021 time: 22:28" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.19&#10;Tag.php (Lesson_60) &#10;date: 05.04.2021 time: 22:28" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1616872459564">
@@ -393,22 +405,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616872452433" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1617649837833">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1617650958952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617649837833" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1617649837833">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617650958952" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1617650958952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617649837833" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1617649837833">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617650958952" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1617650958952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617649837833" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1617649837833">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617650958952" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1617650958952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617649837833" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617650958952" />
     <state x="349" y="147" key="IDE.errors.dialog" timestamp="1615747834266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -425,10 +437,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="329" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617342202546" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617649328165">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617650924711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617649328165" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617650924711" />
     <state x="590" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1617646245592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

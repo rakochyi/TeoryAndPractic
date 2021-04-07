@@ -1,21 +1,44 @@
 <?php
 
-namespace TeoryAndPractic\PRACTIC\Class_Tag_59;
+namespace TeoryAndPractic\PRACTIC\Class_Tag_59_60_61;
 
 class Tag
 {
     private $name; // Властивість для зберігання іменні тегу
 
-    private $attrs;
+    private $attrs = [];
 
 
 
-    public function __construct($name, $attrs = [])
+    public function __construct($name)
     {
         $this->name = $name;
-        $this->attrs = $attrs; // записуєм атрибути у властивість
     }
 
+
+
+    // Реалізація методу для атрибутів
+    public function setArrt($name, $value)
+    {
+        $this->attrs[$name] = $value;
+        return $this;
+    }
+
+
+
+    // Метод для видалення атрибутів
+    public function removeAttr($name, $value)
+    {
+        $arr = $this->setArrt($name, $value);
+        foreach ($arr as $value) {
+            foreach ($value as $key=>$item) {
+                if ($key == $name) {
+                    unset($key);
+                }
+            }
+        }
+
+    }
 
 
     // Відкриваючий метод тегу, тобто тег відривання, наприклад <input>
@@ -53,6 +76,14 @@ class Tag
         }
     }
 }
+$tag = new Tag('input');
+
+echo $tag
+    ->setArrt('type', 'password')
+    ->setArrt('value', 'pass')
+    ->setArrt('class', 'bbb')
+    ->open();
+echo $tag->removeAttr('class', 'bbb');
 
 
 
