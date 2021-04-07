@@ -1,6 +1,6 @@
 <?php
 
-namespace TeoryAndPractic\PRACTIC\Class_Tag_59_60_61;
+namespace TeoryAndPractic\PRACTIC\Class_Tag_59_60_61_62;
 
 class Tag
 {
@@ -18,7 +18,7 @@ class Tag
 
 
     // Реалізація методу для атрибутів
-    public function setArrt($name, $value)
+    public function setAttr($name, $value)
     {
         $this->attrs[$name] = $value;
         return $this;
@@ -26,19 +26,15 @@ class Tag
 
 
 
-    // Метод для видалення атрибутів
-    public function removeAttr($name, $value)
+    public function setAttrs($attrs, array $array)
     {
-        $arr = $this->setArrt($name, $value);
-        foreach ($arr as $value) {
-            foreach ($value as $key=>$item) {
-                if ($key == $name) {
-                    unset($key);
-                }
-            }
+        foreach ($attrs as $name => $value) {
+            $this->setAttr($name, $value);
         }
-
+        return $this;
     }
+
+
 
 
     // Відкриваючий метод тегу, тобто тег відривання, наприклад <input>
@@ -77,13 +73,15 @@ class Tag
     }
 }
 $tag = new Tag('input');
+$tag_br = new Tag('br');
+$tag1 = new Tag('input');
 
 echo $tag
-    ->setArrt('type', 'password')
-    ->setArrt('value', 'pass')
-    ->setArrt('class', 'bbb')
+    ->setAttr('type', 'password')
+    ->setAttr('value', 'pass')
+    ->setAttr('class', 'bbb')
     ->open();
-echo $tag->removeAttr('class', 'bbb');
-
-
-
+echo $tag_br->open();
+echo $tag1
+    ->setAttrs(['type' => 'submit'], ['value' => ''])
+    ->open();
